@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shamin Azaz | Cybersecurity & IT Infrastructure Specialist</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- QR Code Generator Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+
+<!-- Animated Background Glow Blobs -->
+<div class="blob blob-1"></div>
+<div class="blob blob-2"></div>
+<div class="blob blob-3"></div>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="logo">
+        <span class="logo-accent">&lt;</span>Shamin<span class="logo-accent">/&gt;</span>
+    </div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Home / Hero Section -->
+<section id="home" class="hero-section">
+    <div class="hero-content">
+        <div class="badge-pill">
+            <span class="status-dot"></span> Available for IT Infrastructure & Security Roles
+        </div>
+        <h1>Hi, I'm <span class="gradient-text">Shamin Azaz</span></h1>
+        <p class="hero-subtitle">IT Infrastructure Analyst & Computer Technology Student</p>
+        <div class="clearance-tag">
+            <i class="fas fa-user-shield"></i> CBP Level 2 Full Clearance
+        </div>
+        <div class="hero-buttons">
+            <a href="#projects" class="btn primary-btn"><i class="fas fa-rocket"></i> View Featured Work</a>
+            <a href="#contact" class="btn secondary-btn"><i class="fas fa-paper-plane"></i> Contact Me</a>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section">
+    <div class="section-header">
+        <h2>About Me</h2>
+        <div class="header-line"></div>
+    </div>
+    <div class="about-card glass-card">
+        <div class="about-text">
+            <p>I am an experienced Information Technology Specialist pursuing a Bachelor of Science in Computer Technology at Bowie State University (GPA: 3.8). With over 7 years of enterprise experience across DHS, CISA, CBP, and enterprise healthcare networks, I specialize in IT infrastructure management, system administration, and network security.</p>
+
+            <h3>Core Technical Competencies</h3>
+            <div class="skills-grid">
+                <span class="skill-tag"><i class="fas fa-server"></i> Active Directory & GPO</span>
+                <span class="skill-tag"><i class="fas fa-network-wired"></i> Cisco LAN/WAN & Routing</span>
+                <span class="skill-tag"><i class="fas fa-ticket-alt"></i> ServiceNow & Remedy ITSM</span>
+                <span class="skill-tag"><i class="fas fa-notes-medical"></i> Healthcare IT (Cerner, Epic)</span>
+                <span class="skill-tag"><i class="fas fa-shield-alt"></i> HIPAA & Enterprise Compliance</span>
+                <span class="skill-tag"><i class="fas fa-desktop"></i> Citrix VDI & VMware</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+    <div class="section-header">
+        <h2>Featured Projects</h2>
+        <div class="header-line"></div>
+    </div>
+    <div class="projects-grid">
+        <div class="project-card glass-card">
+            <div class="project-icon"><i class="fas fa-network-wired"></i></div>
+            <h3>Enterprise Network Architecture</h3>
+            <p>Simulated multi-site WAN/LAN infrastructure utilizing OSPF routing, VLAN segmentation, and firewall access controls in Cisco Packet Tracer.</p>
+            <a href="https://github.com/shaminazaz/enterprise-network-lab" target="_blank" class="github-link"><i class="fab fa-github"></i> Repository <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="project-card glass-card">
+            <div class="project-icon"><i class="fas fa-code-branch"></i></div>
+            <h3>AD Provisioning Automation</h3>
+            <p>Automated PowerShell scripts created for rapid Active Directory user provisioning, bulk password resets, and automated SLA ticket creation.</p>
+            <a href="https://github.com/shaminazaz/ad-provisioning-automation" target="_blank" class="github-link"><i class="fab fa-github"></i> Repository <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="project-card glass-card">
+            <div class="project-icon"><i class="fas fa-robot"></i></div>
+            <h3>Interactive Portfolio & AI Bot</h3>
+            <p>Modern responsive portfolio application built with HTML5, modern CSS Glassmorphism, client-side QR generation, and an interactive FAQ bot.</p>
+            <a href="https://github.com/shaminazaz/portfolio-website" target="_blank" class="github-link"><i class="fab fa-github"></i> Repository <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- Resume Section -->
+<section id="resume" class="section">
+    <div class="section-header">
+        <h2>Resume & Mobile Access</h2>
+        <div class="header-line"></div>
+    </div>
+    <div class="resume-grid">
+        <div class="resume-card glass-card">
+            <i class="fas fa-file-pdf resume-icon"></i>
+            <h3>Professional Resume</h3>
+            <p>Download my comprehensive resume detailing my experience across healthcare and federal IT support environments.</p>
+            <a href="Shamin_Azaz_Resume.pdf" download class="btn primary-btn"><i class="fas fa-download"></i> Download Resume (PDF)</a>
+        </div>
+
+        <div class="qr-card glass-card">
+            <h3>Scan for Mobile Access</h3>
+            <div id="qrcode"></div>
+            <p class="qr-subtext">Scan with your smartphone camera to view live on mobile.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <div class="section-header">
+        <h2>Get In Touch</h2>
+        <div class="header-line"></div>
+    </div>
+    <div class="contact-container glass-card">
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>Feel free to reach out for career opportunities or technical consultations.</p>
+            <div class="contact-detail">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:shamin.azaz@yahoo.com">shamin.azaz@yahoo.com</a>
+            </div>
+            <div class="contact-detail">
+                <i class="fas fa-phone-alt"></i>
+                <span>(240) 899-6636</span>
+            </div>
+            <div class="contact-detail">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Washington, DC Metropolitan Area</span>
+            </div>
+        </div>
+
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent.');">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea rows="4" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn full-width-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 Shamin Azaz. Built for Professional Portfolio Assignment.</p>
+</footer>
+
+<!-- Interactive Chatbot Widget -->
+<div class="chatbot-widget">
+    <button id="chatbot-toggle-btn" onclick="toggleChatbot()">
+        <i class="fas fa-comments"></i>
+    </button>
+    <div id="chatbot-window" class="chatbot-window hidden">
+        <div class="chatbot-header">
+            <div class="bot-title">
+                <i class="fas fa-robot"></i> Shamin's Assistant
+            </div>
+            <button class="close-btn" onclick="toggleChatbot()">&times;</button>
+        </div>
+        <div id="chat-logs" class="chat-logs">
+            <div class="bot-msg">Hi there! Ask me anything about Shamin's skills, clearance, education, or contact details!</div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Type a message..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
